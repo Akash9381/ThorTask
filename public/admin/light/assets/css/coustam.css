@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+.form-control{
+
+	border-radius: 0px !important;
+	height: 48px !important;
+	font-size: .9571em;
+}
+
+.input-group-addon{
+
+	border-radius: 0px !important;
+}
+
+.input-group, .form-group {
+  margin-bottom: 45px;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.theme-purple .btn-primary{
+
+
+	background: #e55825 !important;
+}
+
+.m-b-0 {
+  text-transform: none;
+  color: #e45825;
+}
+
+.sidebar .user-info .image img {
+  width: 35px;
+  vertical-align: bottom !important;
+  border: 1px solid #fff;
+}
+
+.sidebar .menu .list a small {
+  position: relative;
+  font-weight: bold;
+  font-size: 14px !important;
+  top: calc(50% - 7.5px);
+  right: 0px;
+  top: -5px !important;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.pin {
+  margin: 10px 0.2rem;
+  padding: 0.5rem;
+  border: 1px solid #E3E3E3;
+  width: 30px;
+  height:30px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.pin-title{
+
+	margin: 13px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.error {
+    color: red;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 3px;
+    height: 3px;
+    padding: 3px;
+    background: yellow;
+    border: 1px solid #000;
+    color: #000;
+    text-align: center;
+    font: 10px Arial, sans-serif;
+  }
